@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="启动广播"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shutdown"
+        android:layout_alignLeft="@+id/second_act"
+        android:layout_alignStart="@+id/second_act"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/start_broadcast" />
+
+    <Button
+        android:text="暂停广播"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_broadcast"
+        android:layout_alignLeft="@+id/start_broadcast"
+        android:layout_alignStart="@+id/start_broadcast"
+        android:id="@+id/pause_broadcast" />
+</LinearLayout>
